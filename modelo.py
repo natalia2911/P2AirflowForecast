@@ -18,11 +18,11 @@ def crearModelo():
 
     #Predecimos la temperatura con arima
     mTemperatura = pm.auto_arima(dataframe[['temp']], start_p=1, start_q=1,
-                        test='adf',       # use adftest to find optimal 'd'
-                        max_p=3, max_q=3, # maximum p and q
-                        m=1,              # frequency of series
-                        d=None,           # let model determine 'd'
-                        seasonal=False,   # No Seasonality
+                        test='adf',       
+                        max_p=3, max_q=3, 
+                        m=1,              
+                        d=None,           
+                        seasonal=False,   
                         start_P=0, 
                         D=0, 
                         trace=True,
@@ -36,11 +36,11 @@ def crearModelo():
 
     #Predecimos la humedad, con arima
     mHumedad = pm.auto_arima(dataframe[['hum']], start_p=1, start_q=1,
-                        test='adf',       # use adftest to find optimal 'd'
-                        max_p=3, max_q=3, # maximum p and q
-                        m=1,              # frequency of series
-                        d=None,           # let model determine 'd'
-                        seasonal=False,   # No Seasonality
+                        test='adf',       
+                        max_p=3, max_q=3, 
+                        m=1,             
+                        d=None,           
+                        seasonal=False,   
                         start_P=0, 
                         D=0, 
                         trace=True,

@@ -26,7 +26,6 @@ def capturaDatos():
     db = client["SanFrancisco"]
     col= db["Forecast"]
 
-    #?
     SF.reset_index(inplace=True)
     data_dict=SF.to_dict("records")
     col.insert_many(data_dict)
