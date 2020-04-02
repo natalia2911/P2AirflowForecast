@@ -12,5 +12,5 @@ Esta práctica consiste en la creación, entrega/despliegue de un servicio Cloud
 
 La funcionalidad de cada uno de los ​ EndPoints​ anteriores es realizar una predicción de Humedad y Temperatura para 3 intervalos: 24, 48 y 72 horas. Esta funcionalidad se ha implementado como una herramienta (o función en Python) para predecir en función de varios parámetros de entrada y está disponible en el link del sitio web de la práctica para temperatura 1 como para humedad 2 para la versión 1, donde se usa ARIMA para predecir ambas para las 24 horas siguientes, por lo que tendrás que adaptar esa versión a la versión 2, por ejemplo usando otro algoritmo como los de redes neuronales, random forest, etc.
 
-[Versión 1]()
-[Version 2]()
+- [Versión 1](https://github.com/natalia2911/P2AirflowForecast/tree/version1)
+- [Version 2](https://github.com/natalia2911/P2AirflowForecast/tree/version1)
