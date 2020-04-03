@@ -22,7 +22,7 @@ def capturaDatos():
     SF= SF.tail(500) #Se pone por que tarda mucho y hay que coger un volumen mas pequeño de datos
 
     # Hacemos la conexión con mongoDB, a la base de datos, y a la coleccion
-    client = MongoClient("mongodb://127.0.0.1:27017")
+    client = MongoClient("mongodb://0.0.0.0:27017")
     db = client["SanFrancisco"]
     col= db["Forecast"]
 
