@@ -1,6 +1,6 @@
 import unittest
 from call import callMedianteJson 
-import app as app
+import appv2 as appv2
 
 class tests(unittest.TestCase):
 
