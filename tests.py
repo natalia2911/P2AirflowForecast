@@ -13,8 +13,8 @@ class tests(unittest.TestCase):
 
     #Esta test esta centrado en la APIREST.
     #Test para el indice, comprobamos que no hay error.
-    def test_index(self):
-        response,ok=appv2.index()
+    def test_indice(self):
+        response,ok=appv2.indice()
         self.assertEqual(ok, 200)
     
     #Test para la prediccion de 24 horas
